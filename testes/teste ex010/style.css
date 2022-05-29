@@ -1,0 +1,41 @@
+
+header {
+    height: 100px;
+    width: 1900px;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    
+}
+main{
+height: 1200px; 
+}
+body {
+    background-color: whitesmoke;
+    background-image: url(imagens/imagem-fundo-1800.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+h1 {
+    text-decoration: underline;
+    color: whitesmoke;   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+p {
+    font-size: 20px;
+}
+ul {
+    text-align: center;
+    list-style-type: none;
+    font-size: 20px;
+    
+}
+footer {
+    background-color: black;
+    text-align: center;
+    height: 100px;
+    width: auto;
+}

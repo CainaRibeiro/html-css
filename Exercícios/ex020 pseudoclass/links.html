@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+   <style>
+       /*
+            # = id
+            . = class
+            : = pseudo-class
+            ::= pseudo-element
+            > = children
+       */
+        body {
+           font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: rgb(47, 206, 55);
+        }
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        a:active {
+            color: yellow;
+        }
+        .destaque {
+            background-color: aqua;
+        }
+        .destaque::before {
+            content: 'Acesse';
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 12px; 
+            color: darkgray;
+        }
+        .destaque::after {
+            content: '[link]';
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 12px; 
+            color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a class="destaque" href="https://github.com/CainaRibeiro/site-teste-2">Github</a></li>
+        <li><a href="https://www.youtube.com/?&ab_channel=LucasMontano">Canal do youutube</a></li>
+        <li><a href="https://paletton.com/#uid=a002P0k001D0lgP029U7C02f10o">Site do curso</a></li>
+    </ul>
+    
+</body>
+</html>
