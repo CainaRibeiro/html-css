@@ -1,0 +1,45 @@
+@charset 'UTF-8';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+section {
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+}
+
+section.fundoI {
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.212);
+}
+
+section.fundoI#img1 {
+    background-image: url(https://images.pexels.com/photos/9893516/pexels-photo-9893516.jpeg?cs=srgb&dl=pexels-ron-lach-9893516.jpg&fm=jpg);
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+}
+
+section.fundoI#img2 {
+    background-image: url(https://images.pexels.com/photos/9863717/pexels-photo-9863717.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+}
+
+section.fundoI#img3 {
+    background-image: url(https://images.pexels.com/photos/5426098/pexels-photo-5426098.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+}
