@@ -38,27 +38,24 @@ section {
 .fi {
     box-shadow: inset 10px 10px 15px rgba(0, 0, 0, 0.466);
     background-color: black;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .fi > p {
     background-color: rgba(0, 0, 0, 0.521);
     color: white;
     width: 42vw;
+    padding: 10px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.582);
 }
 
 .fi#img1 {
     background-image: url(../imagens/background001.jpg);
-    background-position: right center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-
 }
 
 .fi#img2 {
     background-image: url(../imagens/background002.jpg);
-    background-position: right center;
-    background-size: cover;
-    background-attachment: fixed;
 }
