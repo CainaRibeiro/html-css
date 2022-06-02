@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form e Input</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            padding: 50px;
+        }
+        .formulário {
+            border: 1px solid black;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 80%;
+            padding: 30px;
+            background-color: #f2f2f2;
+            margin: auto;
+            border-radius: 5px;
+        }
+        input[type=text], select {
+            display: inline-block;
+            width: 100%;
+            padding: 20px;
+            margin: 8px 0px;
+            padding-right: 0px;
+            border: 1px solid #ccc ;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type=submit] {
+            width: 100%;
+            background-color: #4caf50;
+            box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.164);
+            padding: 10px;
+            margin: 8px 0px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+        label {
+            width: 100%;
+            font-weight: bold;
+            display: inline-block;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Criando formulário com html css</h1>
+    <div class="formulário">
+        <form action="">
+            <label for="Primeiro nome">Primeiro nome</label>
+            <input type="text" id="pnome" name="Primeiro nome" placeholder="Seu primeiro nome">
+            <label for="Último nome">Último nome</label>
+            <input type="text" id="unome" name="Último nome" placeholder="Seu último nome">
+            <label for="País">País</label>
+            <select name="pais" id="pais">
+                <option value="brasil">Brasil</option>
+                <option value="italia">Itália</option>
+                <option value="suiça">Suiça</option>
+                <option value="holanda">Holanda</option>
+            </select>
+            <input type="submit" value="Submit">
+
+        </form>
+
+    </div>
+    
+</body>
+</html>
