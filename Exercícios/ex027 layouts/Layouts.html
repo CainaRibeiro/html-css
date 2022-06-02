@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+        }
+        header {
+            padding: 80px;
+            text-align: center;
+            background-color: aliceblue;
+        }
+        nav {
+            overflow: hidden;
+            background-color: rgb(201, 207, 212);
+        }
+        nav a {
+            display: block;
+            float: left;
+            color: black;
+            padding: 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: rgb(10, 10, 10);
+            color: white;
+        }
+        .coluna {
+            width: 33.333%;
+            float: left;
+            padding: 15px;
+            text-align: justify;
+        }
+        @media screen and (max-width: 600px) {
+            div.coluna  {
+                width: 100%;
+            }
+            
+        }
+        .conteudo {
+            display: inline-block;
+            text-align: justify;
+            padding: 15px;
+        }
+        footer {
+            background-color:rgb(201, 207, 212) ;
+            text-align: center;
+            padding: 15px;
+        }
+        footer p {
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Header</h1>
+        <p>Layout com media query</p>
+    </header>
+        <nav>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </nav>
+        <main>
+            <section class="linha">
+                <div class="coluna">
+                    <h2>Coluna1</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem maiores excepturi praesentium natus architecto. Doloremque illo asperiores exercitationem ratione odio similique totam, hic non voluptatum qui, necessitatibus tenetur. Incidunt, omnis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum quas illo voluptatem perferendis. A minima quo ipsa distinctio repudiandae dicta cumque, quaerat ducimus, vel neque tempora voluptates corporis, architecto magnam.</p>
+                </div>
+                <div class="coluna">
+                    <h2>Coluna2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, architecto quod harum deleniti ut autem officia adipisci assumenda quibusdam ipsam dicta pariatur reiciendis. Reiciendis libero rerum odio laborum, officiis error? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut vel itaque cum impedit. Suscipit ad inventore, necessitatibus sequi vero totam alias obcaecati facilis quas dicta sapiente labore tempora, quibusdam impedit.</p>
+                </div>
+                <div class="coluna">
+                    <h2>Coluna3</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi maxime consequuntur tempora distinctio enim molestias ad aut, laudantium deleniti eveniet sit animi, illo libero expedita tenetur esse nam quia est. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, rerum ipsum rem doloremque nulla ut cupiditate, qui placeat dolorum natus quo velit? Repudiandae sit hic nesciunt. Error fuga illum consequatur.</p>
+                </div>
+            </section>
+            <section>
+                <div class="conteudo">
+                    <h1>Conteúdo 4</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est qui et totam tenetur, numquam placeat ducimus ut harum ea iure ipsam hic inventore itaque quia cum cupiditate accusantium, laboriosam nisi! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta voluptatem ex quod! Nemo repudiandae repellat dolorum explicabo expedita accusamus, at tenetur quisquam dignissimos nostrum dolores accusantium iste molestias ipsum quod. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam iure eius natus sed tempore impedit minus necessitatibus dicta repellat, est aut debitis esse omnis sint laborum enim officia voluptas nulla. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus a voluptatem, vero dolor qui officiis accusantium reiciendis atque molestias error eius libero earum repellendus obcaecati illo aut, veritatis rerum animi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente nam officiis reprehenderit, ex facilis cumque quae unde. Tenetur ipsa obcaecati, labore error nam ullam ad ipsam. Velit molestias ratione autem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat tempora doloribus nam, sed provident inventore cumque dolore blanditiis neque possimus itaque fuga eos ipsam modi illum autem ad non harum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eius voluptatem aliquam recusandae quis accusamus maiores placeat. Voluptatibus maxime dignissimos hic. Ipsum rem et maiores velit odio voluptatibus, quia laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, laborum illum quae earum dolores saepe eum temporibus soluta quibusdam eius ipsum reprehenderit nobis facilis nisi. Eaque neque quia officiis voluptatem!</p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Desenvolvido por Cainã</p>
+        </footer>
+</body>
+</html>
