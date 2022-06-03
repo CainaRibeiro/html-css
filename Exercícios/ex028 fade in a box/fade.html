@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fade</title>
+    <style>
+        .container {
+            width: 50%;
+            position: relative;
+        }
+        img {
+            display: block;
+            width: 100%;
+            opacity: 1;
+            backface-visibility: hidden;
+        }
+        .container1 {
+            transition: 1s ease;
+            position: absolute;
+            background-color: lightgray;
+            top:55%;
+            right: 40%;
+            opacity: 0;
+        }
+        .texto {
+            position: absolute;
+            bottom: 45%;
+            right: 40%;
+            background-color: darkgray;
+            padding: 16px 32px;
+        }
+        .container:hover img {
+            opacity: 0.3;
+            transition: 1s ease;
+        }
+        .container:hover .container1 {
+            opacity: 1;
+            transition: 1s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://i.pinimg.com/736x/72/e6/d8/72e6d89ae4636939ef57f921dfa9dca7.jpg" alt="">
+        <div class="container1">
+            <div class="texto">Zero Two</div>
+        </div>
+    </div>
+    
+</body>
+</html>
