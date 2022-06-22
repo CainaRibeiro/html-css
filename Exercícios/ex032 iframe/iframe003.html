@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+        
+        }
+        iframe
+        {
+            width: 95vw;
+            border: 2px solid black;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça um escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolore dignissimos tempore vero doloremque deserunt sequi atque veritatis ea reiciendis magni iusto consectetur, nam nostrum. Vero quo sit impedit iusto.</p>
+
+    <ul>
+        <!--Utiliza o name="" para poder selecionar o iframe que deseja aparecer a imagem-->
+        <li><a href="paginas-extras/pag001.html" target="tela">Primeira pagina</a></li>
+        <li><a target="tela" href="paginas-extras/pag002.html">Segunda pagina</a></li>
+        <li><a target="tela" href="paginas-extras/pag003.html">Terceira pagina</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dolore enim voluptas illo repudiandae quae, repellat reprehenderit labore praesentium sit, quis aliquam aperiam architecto ullam est corrupti! Odio, asperiores aperiam!</p>
+
+    <iframe name="tela" srcdoc="<h1>Escolha uma das opções acima</h1>" alt=""> ">
+        <p>
+            Infelizmente seu navegador não é compativel com iframe
+        </p>
+    </iframe>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, vel? Iste architecto explicabo iusto ab labore. Natus in ipsam, ratione culpa dolorem, cum ducimus odit, voluptates earum numquam ex soluta!</p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non dolor magni voluptas ducimus deserunt animi consequatur beatae tempore facere eum, odit quo temporibus doloribus nihil eos sequi distinctio nostrum.
+</body>
+</html>
